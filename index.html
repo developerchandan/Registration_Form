@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <div class="form-left">
+            <h2 class="text-uppercase">information</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed. Diam volutpat commodo. </p>
+            <p class="text"> <span>Sub Head:</span> Vitae auctor eu augudsf ut. Malesuada nunc vel risus commodo viverra. Praesent elementum facilisis leo vel. </p>
+            <div class="form-field"> <input type="submit" class="account" value="Have an Account?"> </div>
+        </div> -->
+        <form class="form-right">
+            <h2 class="text-uppercase">Registration form</h2>
+            <div class="row">
+                <div class="col-sm-6 mb-3"> <label>First Name</label> <input type="text" name="first_name"
+                        id="first_name" class="input-field"> </div>
+                <div class="col-sm-6 mb-3"> <label>Last Name</label> <input type="text" name="last_name" id="last_name"
+                        class="input-field"> </div>
+            </div>
+            <div class="mb-3"> <label>Your Email</label> <input type="email" class="input-field" name="email" required>
+            </div>
+            <!-- <div class="row">
+                <div class="col-sm-6 mb-3"> <label>Password</label> <input type="password" name="pwd" id="pwd" class="input-field"> </div>
+                <div class="col-sm-6 mb-3"> <label>Current Password</label> <input type="password" name="cpwd" id="cpwd" class="input-field"> </div>
+            </div> -->
+            <div class="mb-3"> <label>Service area</label> <input type="ServiceArea" class="input-field"
+                    name="ServiceArea" required> </div>
+            <div class="mb-3"> <label>Date of Birth</label> <input type="date" class="input-field" name="DateBirth"
+                    required> </div>
+
+            <div class="mb-6"> <label for="Gender">Gender</label>
+                <input type="radio" name="gender" value="male"> Male&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="female"> Female
+
+
+
+            </div>
+            <div class="mb-3"> <label>Home Address</label> <input type="text" class="input-field" name="HomeAddress"
+                    required> </div>
+
+            <div class="mb-3"> <label>Postcode</label> <input type="text" class="input-field" name="Postcode" required>
+            </div>
+            <div class="mb-3"> <label>Years of experience (choose - as per app: 0 to 2, 2 to 4, etc)</label>
+                <select name="gender">
+
+                    <option value="Address">Less than 2 Years</option>
+                    <option value="optional">Between 2 & 4 Years</option>
+                    <option value="photo">Above 4 Years</option>
+                </select>
+
+            </div>
+            <div class="mb-3"> <label>Describe your Experience </label> <input type="text" class="input-field"
+                    name="DisExperience" required> </div>
+            <div class="mb-3"> <label>Proof of Identity (choose one) </label>
+
+                <input type="file" class="input-field" name="DisExperience" required>
+
+            </div>
+            <div class="mb-3"> <label>Proof of Address </label>
+
+                <input type="file" class="input-field" name="DisExperience" required>
+
+            </div>
+            <div class="mb-3"> <label> National insurance number (optional)</label> <input type="text"
+                    class="input-field" name="Insurance" required> </div>
+
+            <div class="mb-3"> <label>Upload your photo (make a selfie with light clear background).
+                </label>
+
+                <input type="file" class="input-field" name="DisExperience" required>
+
+            </div>
+
+            <!-- <div class="mb-3"> 
+                    
+                    
+                </div> -->
+
+
+            <div class="mb-3"> <label class="option"> I confirm that I am eligible to work in the UK and I am over 18
+                    years old <input type="checkbox"> <span class="checkmark"></span> </label> </div>
+
+
+
+
+
+
+            <div class="mb-3"> <label class="option">I have UK bank account <input type="checkbox"> <span
+                        class="checkmark"></span> </label> </div>
+            <div class="mb-3"> <label class="option"> I understand I will be self-employed <input type="checkbox"> <span
+                        class="checkmark"></span> </label> </div>
+            <div class="mb-3"> <label class="option"> I do not have criminal records <input type="checkbox"> <span
+                        class="checkmark"></span> </label> </div>
+            <div class="mb-3"> <label class="option"> I confirm that information that I provide is valid <input
+                        type="checkbox"> <span class="checkmark"></span> </label> </div>
+
+            <div class="mb-3"> <label class="option"><a href="https://maktoday.co.uk/privacy-policy/"></a> Privacy
+                    policy &<a href="https://maktoday.co.uk/user-terms-and-conditions/">Terms and Conditions</a> <input
+                        type="checkbox" checked> <span class="checkmark"></span> </label> </div>
+
+
+
+            <div class="form-field"> <input type="submit" value="Register" class="register" name="register"> </div>
+        </form>
+    </div>
+</body>
+
+</html>
